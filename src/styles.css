@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --grey: #505050;
+  --off-white: #e0e0e0;
+  --white: #ffffff;
+  --primary-color: #131314;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  padding: 0 auto;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+button {
+  color: var(--white);
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.8rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+button:active {
+  outline: solid;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  border: thin solid var(--off-white);
+  color: var(--off-white);
+}
+
+.button-alternate {
+  border: thin solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.primary-button {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  border: thin solid var(--off-white);
+  color: var(--off-white);
+  min-width: 6.5rem;
+}
+
+.secondary-button {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: var(--off-white);
+  border: thin solid var(--primary-color);
+  color: var(--primary-color);
+  min-width: 6.5rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.list-item-inline {
+  display: inline;
+  margin: 0 1rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+.section {
+  background-color: var(--off-white);
+}
+
+.container {
+  max-width: 600px;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: thin solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.container-skill {
+  border: 2px solid var(--grey);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+span {
+  color: var(--primary-color);
+  font-weight: 900;
+}
