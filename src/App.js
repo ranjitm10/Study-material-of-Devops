@@ -5,10 +5,10 @@ import { useState } from "react";
 var hello = {
   Program: [
     {
-      Title: "Getting started with 'GO'",
+      Title: "Getting started with 'Javascript'",
       Description:
-        "you'll get a brief introduction to Go programming. Along the way, you will",
-      Link: "https://www.youtube.com/watch?v=YS4e4q9oBaU"
+        "you'll get a brief introduction to Javascript programming. Along the way, you will",
+      Link: "https://www.youtube.com/watch?v=_L-UszPmy2A"
     },
     {
       Title: "Let’s Begin with Python",
